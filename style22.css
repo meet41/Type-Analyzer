@@ -1,0 +1,44 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+.input-box{
+    margin-left: 500px;
+}
+.underline{
+    background-color: yellow;
+    border: 4px;
+}
+body{
+    background-color: red;
+    font-size:large;
+}
+.btn{
+    margin-left: 150px;
+}
+.display{
+    margin-left: 500px;
+}
+.main{
+    background-color: aqua;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+p{
+    box-sizing:content-box;
+    width: 18%;
+    margin-left: 500px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    font-size:large;
+}
+h2{
+    width: 70%;
+    margin-left: 200px;
+}
