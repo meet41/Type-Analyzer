@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="HandheldFriendly" content="true">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style22.css">
-    <script src="main22.js"></script>
-    <title>Type Analyzer</title>
-</head>
-<body style="text-align: center;">
-    <div class="main">
-	    <u class="underline"><h1 style="color: purple">Meet Type Analyzer</h1></u>
-        <h2 style="background-color: yellow;">Input your string here in below textbox see, How many character, words and lines are there in your string.</h2>
-	    <textarea id="inputField" rows=10 cols="60">
-	    </textarea>
-	    <br><br>
-	    <button onclick="countWords(), countcharacter(),countLines()">
-        	Count 	</button>
-	    <br><br>
-        <h3>
-        <p style="background-color: rgb(16, 48, 192);"> Word Count:<span id="show">0</span></p>
-        <p style="background-color: yellow;">Character Count:<span id="show2">0</span></p>
-        <p style="background-color: rgb(13, 219, 13);">Lines Count:<span id="show3">0</span></p></h3><br><br>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="HandheldFriendly" content="true" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<title>Type Analyzer</title>
+	</head>
+	<body>
+		<main>
+			<h1>Meet Type Analyzer</h1>
+			<p>
+				Input your string here in below textbox see, How many character,
+				wordsand lines are there in your string.
+			</p>
+			<textarea id="inputField"></textarea>
+			<button id="calculate">Count</button>
+			<div class="results">
+				<p>Word Count:<span id="show">0</span></p>
+				<p>Character Count:<span id="show2">0</span></p>
+				<p>Lines Count:<span id="show3">0</span></p>
+			</div>
+		</main>
+	</body>
 </html>
